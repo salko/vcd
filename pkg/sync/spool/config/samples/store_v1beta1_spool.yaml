@@ -1,0 +1,7 @@
+apiVersion: store.vmware.com/v1beta1
+kind: Spool
+metadata:
+  name: spool-sample
+spec:
+  # Add fields here
+  foo: bar

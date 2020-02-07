@@ -1,0 +1,7 @@
+domain: vmware.com
+repo: github.com/salko/vcd/pkg/sync/spool
+resources:
+- group: store
+  kind: Spool
+  version: v1beta1
+version: "2"

@@ -1,0 +1,26 @@
+# permissions to do edit spools.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: spool-editor-role
+rules:
+- apiGroups:
+  - store.vmware.com
+  resources:
+  - spools
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - store.vmware.com
+  resources:
+  - spools/status
+  verbs:
+  - get
+  - patch
+  - update
