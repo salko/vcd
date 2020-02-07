@@ -1,5 +1,5 @@
 domain: vmware.com
-repo: github.com/salko/vcd/pkg/sync/spool
+repo: github.com/salko/vcd
 resources:
 - group: store
   kind: Spool

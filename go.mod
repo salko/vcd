@@ -1,4 +1,4 @@
-module github.com/salko/vcd/pkg/sync/spool
+module github.com/salko/vcd
 
 go 1.13
 

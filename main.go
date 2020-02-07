@@ -19,7 +19,7 @@ import (
 	"flag"
 	"os"
 
-	storev1beta1 "github.com/salko/vcd/pkg/sync/spool/api/v1beta1"
+	storev1beta1 "github.com/salko/vcd/api/v1beta1"
 	"k8s.io/apimachinery/pkg/runtime"
 	clientgoscheme "k8s.io/client-go/kubernetes/scheme"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
